@@ -1,0 +1,34 @@
+<!--
+`ui-input` is an unstyled single-line input field. It extends the native `input` element.
+
+The input's value is considered "committed" if the user hits the "enter" key
+or blurs the input after changing the value. The committed value is stored in
+the `committedValue` property.
+If the input has `type = number`, this element will also prevent non-numeric characters
+from being typed into the text field.
+
+Accessibility
+-------------
+The following ARIA attributes are set automatically:
+- `aria-label`: set to the `placeholder` attribute
+- `aria-disabled`: set if `disabled` is true
+
+##### Example
+
+    <input is="ui-input">
+
+@element ui-input
+@extends input
+@group UI Elements
+@blurb `ui-input` is an unstyled single-line input field. It extends the native `input` element.
+@status beta
+@homepage http://polymerlabs.github.io/ui-input
+-->
+
+<!-- Import the elements dependencies. -->
+<link rel="import" href="../polymer/polymer.html">
+<!-- The element's definition. -->
+<polymer-element name="ui-input" extends="input">
+    <!-- Import the element's scripts. -->
+    <script src="ui-input.js"></script>
+</polymer-element>
