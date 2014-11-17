@@ -1,0 +1,28 @@
+{
+  "name": "ui-input",
+  "keywords": [
+    "ui",
+    "input",
+    "polymer",
+    "web-components"
+  ],
+  "main": "ui-input.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.4.0",
+    "ui-theme": "BerndWessels/ui-theme#^0.1.0"
+  },
+  "devDependencies": {
+    "polymer-test-tools": "Polymer/polymer-test-tools#^0.4.0"
+  },
+  "homepage": "https://github.com/BerndWessels/ui-input",
+  "_release": "bc92e54c4c",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "bc92e54c4c1bda938790a19839688e5c95bc87b6"
+  },
+  "_source": "git://github.com/BerndWessels/ui-input.git",
+  "_target": "master",
+  "_originalSource": "BerndWessels/ui-input",
+  "_direct": true
+}

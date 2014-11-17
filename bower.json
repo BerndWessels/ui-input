@@ -1,0 +1,7 @@
+{
+  "name": "ui-input#gh-pages",
+  "private": true,
+  "dependencies": {
+    "ui-input": "BerndWessels/ui-input#master"
+  }
+}
